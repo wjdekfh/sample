@@ -25,16 +25,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
-    // {
-    //   resolve: `gatsby-source-git`,
-    //   options: {
-    //     name: `dump`,
-    //     remote: `https://github.com/wjdekfh/wjdekfh.github.io.git`,
-    //     branch: `new_blog`,
-    //     patterns: `*.NoGraphql`,
-    //     local: `${__dirname}/remote`,
-    //   }
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

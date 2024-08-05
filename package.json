@@ -33,7 +33,8 @@
     "gray-matter": "^4.0.3",
     "prismjs": "^1.29.0",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "simple-git": "^3.25.0"
   },
   "devDependencies": {
     "prettier": "^2.8.8"
@@ -51,7 +52,7 @@
     "build": "SET USE_ADMIN=false && gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "SET ENABLE_GATSBY_REFRESH_ENDPOINT=true && gatsby develop --host=0.0.0.0",
+    "start": "gatsby develop --host=0.0.0.0",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
